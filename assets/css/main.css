@@ -1128,3 +1128,21 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 #copyright p a:hover {
   color: #00b4d9;
 }
+
+/* logo 大小更改區 */
+#logo_use{
+  width: 60px;
+}
+
+/* Work Area */
+#workArea { padding: 60px 0px; }
+#workArea ul.controls { width: 100%; padding: 0px; overflow: hidden; margin: 20px 0; text-transform: uppercase; font-weight: 700; }
+#workArea ul.controls li { list-style: none; display: inline-block; margin: 5px 8px; cursor: pointer; }
+#workArea ul.controls li.active { color: #48C6CD; }
+#workArea ul#Grid { margin: 20px 0; padding: 0; position: relative; }
+#workArea ul#Grid li { display: none; margin-bottom: 2em; position: relative; }
+#workArea ul#Grid li a { display: block; color: #fff; background: #48C6CD; font-weight: 700; text-transform: uppercase; }
+#workArea ul#Grid li a span { display: none; position: absolute; width: 100%; text-align: center; top: 45%; left: 0px; -webkit-transition: 0.25s; -moz-transition: 0.25s; -o-transition: 0.25s; transition: 0.25s; }
+#workArea ul#Grid li a img { -webkit-transition: 0.25s; -moz-transition: 0.25s; -o-transition: 0.25s; transition: 0.25s; }
+#workArea ul#Grid li a:hover img { opacity: 0.2; }
+#workArea ul#Grid li a:hover span { display: block; }
