@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Sans+Pro:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 html {
   overflow-x: hidden;
 }
@@ -27,6 +28,10 @@ h1, h2, h3, h4 {
 
 .script-font {
   font-family: 'Shadows Into Light', cursive;
+}
+
+.head-title {
+  font-family: 'Square Peg', cursive;
 }
 
 a {
@@ -60,6 +65,12 @@ ul, ol {
 ul li, ol li {
   list-style: none;
 }
+
+/* logo 大小更改區 */
+#logo_use{
+  width: 60px;
+}
+
 
 .hero-heading {
   font-size: 48px;
@@ -312,7 +323,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .about-profile .pro-title {
-  font-weight: 700;
+  font-weight: 500;
   color: #040404;
   position: relative;
   width: 120px;
@@ -325,7 +336,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   content: ':';
   color: #040404;
   font-size: 14px;
-  left: 77px;
+  left: 90px;
 }
 
 .about-profile .admin-sign {
@@ -1129,7 +1140,3 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #00b4d9;
 }
 
-/* logo 大小更改區 */
-#logo_use{
-  width: 60px;
-}
